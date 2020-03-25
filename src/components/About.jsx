@@ -35,3 +35,5 @@ class About extends Component {
 }
 
 export default About;
+
+// Designed motivation: https://nad.is/contact
