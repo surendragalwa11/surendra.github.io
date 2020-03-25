@@ -1,6 +1,12 @@
 {
     "home": {
-
+        "greeting_text": "Hi, I am Surendra.",
+        "title": "Developer. Software Engineer.",
+        "description_l1": "Multidisciplinary software engineer who hacks at, makes and occasionally breaks things.",
+        "description_l2": "Product development engineer of the team behind ",
+        "description_l3": "Less moody in real life. ✌️",
+        "company_name": "NYMO",
+        "company_url": "https://www.nymo.ai/"
     },
     "about": {
 

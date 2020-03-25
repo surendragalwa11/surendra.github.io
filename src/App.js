@@ -17,7 +17,7 @@ import './common.css';
 
 function App() {
   return (
-    <div className="main-container">
+    <div className="main-container h100">
       <Router>
         <Header />
         <Switch>
