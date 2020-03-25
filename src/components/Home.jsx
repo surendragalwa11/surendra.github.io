@@ -13,7 +13,7 @@ class Home extends Component {
 
     render() {
         return(
-            <div className='home-page op-zero'>
+            <div className='home-page page op-zero'>
                 <h2 className='greeting-text'>
                     {userInfo.home.greeting_text}
                 </h2>

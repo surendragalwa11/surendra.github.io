@@ -10,7 +10,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
-import Gallery from './components/Gallery';
+import Contact from './components/Contact';
 
 import './App.css';
 import './common.css';
@@ -30,8 +30,8 @@ function App() {
           <Route exact path='/portfolio/work'>
             <Work />
           </Route>
-          <Route exact path='/portfolio/gallery'>
-            <Gallery />
+          <Route exact path='/portfolio/contact'>
+            <Contact />
           </Route>
         </Switch>
       </Router>
