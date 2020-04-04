@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background: #000;
+  background: #000; /* #0f85b5 */
   font-size: 14px;
   line-height: 20px;
   /* background-image: url(./data/background.jpeg); */

@@ -22,30 +22,44 @@
 }
 
 .active-link {
-    color: #f0860c !important;
+    color: #f0860c !important; /* #f5d356 */
 }
 
 /* HOME PAGE CSS */
 
 @keyframes fadeIn {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
+    from {
         opacity: 0;
     }
-
-    100% {
+    to {
         opacity: 1;
     }
 }
+
+@keyframes scaleSize {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
 
 .page {
     padding: 5rem 45% 5rem 5rem;
     background-image: none;
     opacity: 1;
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s, scaleSize ease 1s;
 }
 
 .greeting-text {
@@ -73,6 +87,7 @@
 .contact-page .user {
     width: 100%;
     padding-left: 25%;
+    animation: slideLeft 2s ease;
 }
 
 .user-image {
